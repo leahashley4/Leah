@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley's Pinoy Resto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #c96d5d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #8d4a43;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background: white;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    color: #8d4a43;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 5px 0;
+}
+
+/* Main Content */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image-gallery img {
+    width: 30%;
+    border-radius: 10px;
+}
+</style>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>ASHLEY'S PINOY RESTO</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Our Menu</a></li>
+            <li><a href="#">Branches</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Our Menu</h2>
+            <ul>
+                <li>Chicken</li>
+                <li>Pork</li>
+                <li>Beef</li>
+                <li>Seafood</li>
+                <li>Vegetables</li>
+            </ul>
+
+            <h2>Branches</h2>
+            <ul>
+                <li>Quezon City</li>
+                <li>Makati</li>
+                <li>Cebu</li>
+                <li>Davao</li>
+            </ul>
+        </aside>
+
+        <!-- Main Content with Food Images -->
+        <section class="content">
+            <div class="image-gallery">
+                <img src="img/food1.jpg" alt="Food 1">
+                <img src="img/food2.jpg" alt="Food 2">
+                <img src="img/food3.jpg" alt="Food 3">
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
